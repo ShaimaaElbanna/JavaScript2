@@ -1,1 +1,45 @@
-/* add your styling here */
+/* add your styling here 
+'use strict';*/
+#booksListDiv {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center; 
+}
+#title{
+    color: gold;
+    text-align: center;
+    background-color: #444;
+    height: 5%;
+    padding: 1em;
+
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+    padding: 1em;
+    margin: 1em; 
+    border-bottom: 5px dotted  black;
+
+}
+
+
+h1 {
+    margin-bottom: 1em; 
+    font-style: italic;
+}
+
+img {
+    width: 15em;
+    border: 5px solid black;
+    padding: 0; 
+    margin: .5em;
+}
+li:hover, li:active {
+    opacity: 0.8;
+    box-shadow: 0 .3em .5em 0 rgba(0, 0, 0, 0.527), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
