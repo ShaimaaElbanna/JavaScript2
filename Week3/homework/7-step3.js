@@ -23,7 +23,9 @@ console.log(y);
 
 // Add your explanation as a comment here
 
-/*in f1(); we deal with a number that defined with const, which means any operation made on this const will be done on a copy of it inside the function, so it will be changing inside the function only not globally, that's why console.log(x) = 9 but console.log(f1(x)) = 10*/
+/*in f1(); we deal with a number that defined with const, which means any operation made on this const 
+will be done on a copy of it inside the function, so it will be changing inside the function only not globally, that's why console.log(x) = 9 but console.log(f1(x)) = 10*/
 
 
-/*but in if2(); we deal with an object which means that the variable will be changing or affected inside and also outside the function f2(). and you can see it if you console,log (f2(y))*/
+/*but in if2(); we deal with an object which means that the variable will be changing or affected inside
+ and also outside the function f2(). and you can see it if you console,log (f2(y))*/

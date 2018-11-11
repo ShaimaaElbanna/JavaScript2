@@ -27,7 +27,7 @@ function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
   
   //step 2: 
   values.map(function checknumbers(i){
-      if ((i % 3 == 0) && (i % 5 == 0)){
+      if ((i % 3 == 0) && (i % 5 == 0)){ //unneccery step
         console.log( i + " is divisible by");
         threeCallback();
         fiveCallback()

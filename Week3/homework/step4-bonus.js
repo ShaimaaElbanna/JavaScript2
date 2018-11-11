@@ -6,7 +6,7 @@
 
 
 
-const values = ['a',5,5,7,7,"s","k","s","k", 'b', 'c', 'd', 'a', 'e', 'f', 'c'];
+const values = ['a',5,5,7,7,"s","s","k","s","a","k", 'b', 'c', 'd', 'e',"a", 'f', 'c'];
 //let soretd = values[5].delete; 
 //console.log(soretd)
 // Add your function here. Try and come up with a good name for this function
@@ -14,9 +14,12 @@ const values = ['a',5,5,7,7,"s","k","s","k", 'b', 'c', 'd', 'a', 'e', 'f', 'c'];
 // Replace `yourFunction` with the name of the function you just created
 function cleanarr(arr){
     arr.sort()
-    for (let i = 0; i < arr.length; i++){
+    for (let i = 0; i < arr.length-1;){
         if (arr[i] === arr[i+1]){
             arr.splice(i,1);
+        }
+        else {
+            i++;
         }
     }
 return arr;
